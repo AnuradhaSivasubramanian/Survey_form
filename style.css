@@ -1,0 +1,72 @@
+body {
+  background-attachment: fixed;
+  background-image: url("people-standing-near-train-under-shed-691471.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  align-items: center;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  color: #0000ff;
+  font-family: "Fugaz One";
+}
+header p {
+  font-family: "Roboto";
+  color: lightslategray;
+}
+.survey-form {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30%;
+  background-color: black;
+  color: lightslategray;
+  font-size: 1.3em;
+  padding: 15px;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  color: #0000ff;
+  font-size: 0.9em;
+  font-family: "Roboto";
+}
+select {
+  font-family: "Roboto";
+  font-size: 0.8em;
+  color: #696969;
+  border-radius: 5px;
+  color: #0000ff;
+}
+.survey-form input,
+textarea,
+select {
+  padding: 5px;
+}
+label {
+  margin-top: 25px;
+}
+div {
+  margin-top: 10px;
+}
+textarea {
+  font-family: "Roboto";
+  font-size: 0.9em;
+  color: #696969;
+  border-radius: 5px;
+}
+.submit {
+  font-family: "Roboto";
+  font-size: 1.2em;
+  color: black;
+  width: 20%;
+  margin-left: 40%;
+  height: 35px;
+  padding: 10px;
+  margin-top: 15px;
+}
