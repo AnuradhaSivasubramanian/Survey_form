@@ -13,6 +13,7 @@ header {
   color: #0000ff;
   font-family: "Fugaz One";
 }
+
 header p {
   font-family: "Roboto";
   color: lightslategray;
@@ -27,6 +28,12 @@ header p {
   color: lightslategray;
   font-size: 1.3em;
   padding: 15px;
+}
+@media only screen and (min-width: 750px) and (max-width: 1025px) {
+  .survey-form {
+    width: 80%;
+    margin-left: 5%;
+  }
 }
 input {
   border-radius: 5px;
@@ -69,4 +76,21 @@ textarea {
   height: 35px;
   padding: 10px;
   margin-top: 15px;
+}
+@media only screen and (max-width: 500px) {
+  header p {
+    display: none;
+  }
+  .survey-form {
+    width: 90%;
+    margin-left: 0px;
+  }
+  .submit {
+    font-size: 1em;
+    width: 50%;
+    margin-left: 20%;
+    height: 35px;
+    padding: 10px;
+    margin-top: 15px;
+  }
 }
